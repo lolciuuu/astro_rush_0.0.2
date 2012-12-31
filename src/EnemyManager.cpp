@@ -16,7 +16,6 @@ EnemyManager::EnemyManager():pLastEnemy( 0 ),pCurrentX( 0 ), pOffsetX( 0.0f ),
 pTilesSize( 0.0f ), pHorizontalTilesAmount( 0 ), logger("EnemyManager")
 {
 	logger.setClassName("EnemyManager");
-
 }
 
 /** Dodanie nowego enmy - row i column to kolumna i wiersz na macierzy reprezentujacej mape. */
